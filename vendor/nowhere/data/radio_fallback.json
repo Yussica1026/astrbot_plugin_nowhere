@@ -1,0 +1,911 @@
+[
+  {
+    "name": "NTS 1",
+    "genre": "eclectic",
+    "stream_url": "https://stream-relay-geo.ntslive.net/stream",
+    "homepage": "https://nts.live",
+    "country": "GB",
+    "lat": 51.5074,
+    "lon": -0.1278
+  },
+  {
+    "name": "NTS 2",
+    "genre": "eclectic",
+    "stream_url": "https://stream-relay-geo.ntslive.net/stream2",
+    "homepage": "https://nts.live",
+    "country": "GB",
+    "lat": 51.5074,
+    "lon": -0.1278
+  },
+  {
+    "name": "Worldwide FM",
+    "genre": "jazz/electronic",
+    "stream_url": "https://worldwidefm.net/stream",
+    "homepage": "https://worldwidefm.net",
+    "country": "GB",
+    "lat": 51.5074,
+    "lon": -0.1278
+  },
+  {
+    "name": "BBC World Service",
+    "genre": "news",
+    "stream_url": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+    "homepage": "https://bbc.co.uk",
+    "country": "GB",
+    "lat": 51.51,
+    "lon": -0.13
+  },
+  {
+    "name": "Jazz FM",
+    "genre": "jazz",
+    "stream_url": "https://edge-audio-03-gos2.sharp-stream.com/jazzfm.mp3",
+    "homepage": "https://jazzfm.com",
+    "country": "GB",
+    "lat": 51.5074,
+    "lon": -0.1278
+  },
+  {
+    "name": "Deutschlandfunk",
+    "genre": "news/talk",
+    "stream_url": "https://st01.sslstream.dlf.de/dlf/01/128/mp3/stream.mp3",
+    "homepage": "https://www.deutschlandfunk.de",
+    "country": "DE",
+    "lat": 50.9375,
+    "lon": 6.9603
+  },
+  {
+    "name": "FIP",
+    "genre": "eclectic",
+    "stream_url": "https://icecast.radiofrance.fr/fip-midfi.mp3",
+    "homepage": "https://www.radiofrance.fr/fip",
+    "country": "FR",
+    "lat": 48.8566,
+    "lon": 2.3522
+  },
+  {
+    "name": "NRK P1",
+    "genre": "news/talk",
+    "stream_url": "https://lyd.nrk.no/nrk_radio_p1_ostlandssendingen_mp3_h",
+    "homepage": "https://nrk.no/p1",
+    "country": "NO",
+    "lat": 59.91,
+    "lon": 10.75
+  },
+  {
+    "name": "NRK P2",
+    "genre": "culture/classical",
+    "stream_url": "https://lyd.nrk.no/nrk_radio_p2_mp3_h",
+    "homepage": "https://nrk.no/p2",
+    "country": "NO",
+    "lat": 59.91,
+    "lon": 10.75
+  },
+  {
+    "name": "NRK Tromso",
+    "genre": "news/talk",
+    "stream_url": "https://lyd.nrk.no/nrk_radio_tromso_mp3_h",
+    "homepage": "https://nrk.no/troms",
+    "country": "NO",
+    "lat": 69.65,
+    "lon": 18.96
+  },
+  {
+    "name": "RUV Ras 1",
+    "genre": "news/talk",
+    "stream_url": "http://netradio.ruv.is/ras1.mp3",
+    "homepage": "https://ruv.is",
+    "country": "IS",
+    "lat": 64.15,
+    "lon": -21.94
+  },
+  {
+    "name": "Radio Paradise Main",
+    "genre": "eclectic/rock",
+    "stream_url": "https://stream.radioparadise.com/mp3-192",
+    "homepage": "https://radioparadise.com",
+    "country": "US",
+    "lat": 38.9072,
+    "lon": -77.0369
+  },
+  {
+    "name": "SomaFM Groove Salad",
+    "genre": "ambient",
+    "stream_url": "https://ice1.somafm.com/groovesalad-128-mp3",
+    "homepage": "https://somafm.com/groovesalad",
+    "country": "US",
+    "lat": 37.7749,
+    "lon": -122.4194
+  },
+  {
+    "name": "SomaFM Drone Zone",
+    "genre": "ambient/drone",
+    "stream_url": "https://ice1.somafm.com/dronezone-128-mp3",
+    "homepage": "https://somafm.com/dronezone",
+    "country": "US",
+    "lat": 37.7749,
+    "lon": -122.4194
+  },
+  {
+    "name": "KEXP",
+    "genre": "indie/rock",
+    "stream_url": "https://kexp.streamguys1.com/kexp160.aac",
+    "homepage": "https://kexp.org",
+    "country": "US",
+    "lat": 47.6062,
+    "lon": -122.3321
+  },
+  {
+    "name": "KCRW",
+    "genre": "eclectic/news",
+    "stream_url": "https://kcrw.streamguys1.com/kcrw_128k_mp3_on_air",
+    "homepage": "https://kcrw.com",
+    "country": "US",
+    "lat": 34.0522,
+    "lon": -118.2437
+  },
+  {
+    "name": "NPR",
+    "genre": "news/talk",
+    "stream_url": "https://npr-ice.streamguys1.com/live.mp3",
+    "homepage": "https://npr.org",
+    "country": "US",
+    "lat": 38.9072,
+    "lon": -77.0369
+  },
+  {
+    "name": "CBC Radio One",
+    "genre": "news/talk",
+    "stream_url": "https://cbcliveradio.akamaized.net/hls/live/2042825/CLB/master.m3u8",
+    "homepage": "https://cbc.ca/radio",
+    "country": "CA",
+    "lat": 45.4215,
+    "lon": -75.6972
+  },
+  {
+    "name": "Radio Nova CZ",
+    "genre": "world/indie",
+    "stream_url": "https://broadcast.radioteka.cz/radionova128.mp3",
+    "homepage": "https://www.nova.cz",
+    "country": "CZ",
+    "lat": 50.0755,
+    "lon": 14.4378
+  },
+  {
+    "name": "SBS PopAsia",
+    "genre": "asian pop",
+    "stream_url": "https://live-radio01.mediahubaustralia.com/2TALK/mp3",
+    "homepage": "https://www.sbs.com.au/popasia",
+    "country": "AU",
+    "lat": -33.8688,
+    "lon": 151.2093
+  },
+  {
+    "name": "ABC Radio National",
+    "genre": "talk/culture",
+    "stream_url": "https://live-radio01.mediahubaustralia.com/2RNW/mp3/",
+    "homepage": "https://abc.net.au",
+    "country": "AU",
+    "lat": -33.87,
+    "lon": 151.21
+  },
+  {
+    "name": "Radio New Zealand",
+    "genre": "news/culture",
+    "stream_url": "https://radionz-ice.streamguys.com/rnz-national.mp3",
+    "homepage": "https://rnz.co.nz",
+    "country": "NZ",
+    "lat": -41.2865,
+    "lon": 174.7762
+  },
+  {
+    "name": "Fiji Broadcasting",
+    "genre": "news/talk",
+    "stream_url": "https://www.fbc.com.fj/radio/stream",
+    "homepage": "https://fbc.com.fj",
+    "country": "FJ",
+    "lat": -18.1416,
+    "lon": 178.4419
+  },
+  {
+    "name": "KBS Classic FM",
+    "genre": "classical",
+    "stream_url": "https://serenekbsclassic.kbs.co.kr/api/mini/pc/kbs_classic.m3u8",
+    "homepage": "https://kbs.co.kr",
+    "country": "KR",
+    "lat": 37.5665,
+    "lon": 126.978
+  },
+  {
+    "name": "NHK Radio 1",
+    "genre": "news/talk",
+    "stream_url": "https://nhkradioakr-i.akamaihd.net/hls/live/2017851/nhkradirak/master.m3u8",
+    "homepage": "https://nhk.or.jp",
+    "country": "JP",
+    "lat": 35.6762,
+    "lon": 139.6503
+  },
+  {
+    "name": "VOV1",
+    "genre": "news/talk",
+    "stream_url": "https://vov1.vov.vn/live/stream",
+    "homepage": "https://vov.vn",
+    "country": "VN",
+    "lat": 21.0285,
+    "lon": 105.8542
+  },
+  {
+    "name": "ANTV",
+    "genre": "news",
+    "stream_url": "https://lives.antv.gov.vn/channel/antv/channel/antv_480p/chunks.m3u8",
+    "homepage": "https://antv.gov.vn",
+    "country": "VN",
+    "lat": 21.03,
+    "lon": 105.85
+  },
+  {
+    "name": "MCOT Radio",
+    "genre": "news/talk",
+    "stream_url": "https://radio.mcot.net/mcot-radio/stream",
+    "homepage": "https://mcot.net",
+    "country": "TH",
+    "lat": 13.7563,
+    "lon": 100.5018
+  },
+  {
+    "name": "RRI Jakarta",
+    "genre": "news/culture",
+    "stream_url": "https://stream.rri.co.id/jakarta/stream",
+    "homepage": "https://rri.co.id",
+    "country": "ID",
+    "lat": -6.2088,
+    "lon": 106.8456
+  },
+  {
+    "name": "CRI Easy FM",
+    "genre": "music/news",
+    "stream_url": "http://english.cri.cn/live/cri/easyfm/icecast.audio",
+    "homepage": "https://cri.cn",
+    "country": "CN",
+    "lat": 39.9042,
+    "lon": 116.4074
+  },
+  {
+    "name": "Harbin Music FM",
+    "genre": "music",
+    "stream_url": "https://stream.hrbtv.net/yypl/playlist.m3u8",
+    "homepage": "https://hrbtv.net",
+    "country": "CN",
+    "lat": 45.8,
+    "lon": 126.53
+  },
+  {
+    "name": "KBC Radio",
+    "genre": "news/talk",
+    "stream_url": "https://live.kbc.co.ke/kbc-radio",
+    "homepage": "https://kbc.co.ke",
+    "country": "KE",
+    "lat": -1.2921,
+    "lon": 36.8219
+  },
+  {
+    "name": "TBC Radio",
+    "genre": "news",
+    "stream_url": "https://tbc.go.tz/radio/stream",
+    "homepage": "https://tbc.go.tz",
+    "country": "TZ",
+    "lat": -6.7924,
+    "lon": 39.2083
+  },
+  {
+    "name": "SABC Radio",
+    "genre": "news/talk",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SABCRADIO1.mp3",
+    "homepage": "https://sabc.co.za",
+    "country": "ZA",
+    "lat": -26.2041,
+    "lon": 28.0473
+  },
+  {
+    "name": "CRTV Radio",
+    "genre": "news/talk",
+    "stream_url": "https://www.crtv.cm/radio/stream",
+    "homepage": "https://crtv.cm",
+    "country": "CM",
+    "lat": 3.848,
+    "lon": 11.5021
+  },
+  {
+    "name": "All India Radio",
+    "genre": "news/classical",
+    "stream_url": "https://airnewsenglish.akamaized.net/hls/live/2018529/airnewsenglish/english/playlist.m3u8",
+    "homepage": "https://airnews.gov.in",
+    "country": "IN",
+    "lat": 28.6139,
+    "lon": 77.209
+  },
+  {
+    "name": "Radio Jordan",
+    "genre": "news/talk",
+    "stream_url": "https://www.jrtv.gov.jo/radio/stream",
+    "homepage": "https://jrtv.gov.jo",
+    "country": "JO",
+    "lat": 31.9454,
+    "lon": 35.9284
+  },
+  {
+    "name": "Dubai FM",
+    "genre": "news/music",
+    "stream_url": "https://dubai1016fm.com/stream",
+    "homepage": "https://dubaimediaoffice.ae",
+    "country": "AE",
+    "lat": 25.2048,
+    "lon": 55.2708
+  },
+  {
+    "name": "VOA Persian",
+    "genre": "news",
+    "stream_url": "https://av.voanews.com/VOA_Persian_TV/VOA_Persian_TV.isml/playlist.m3u8",
+    "homepage": "https://ir.voanews.com",
+    "country": "US",
+    "lat": 38.9072,
+    "lon": -77.0369
+  },
+  {
+    "name": "Radio Nacional do Brasil",
+    "genre": "mpb, samba, bossa nova",
+    "stream_url": "https://stream.radiodifusao.fm/rnb",
+    "homepage": "https://www.gov.br/radiobrasil",
+    "country": "BR",
+    "lat": -22.91,
+    "lon": -43.17
+  },
+  {
+    "name": "Radio Nacional Argentina",
+    "genre": "news/culture",
+    "stream_url": "https://streaming.radionacional.gob.ar/rn.mp3",
+    "homepage": "https://radionacional.gob.ar",
+    "country": "AR",
+    "lat": -34.6037,
+    "lon": -58.3816
+  },
+  {
+    "name": "RPP Noticias",
+    "genre": "news/talk",
+    "stream_url": "https://stream.rpp.pe/rpp.mp3",
+    "homepage": "https://rpp.pe",
+    "country": "PE",
+    "lat": -12.0464,
+    "lon": -77.0428
+  },
+  {
+    "name": "KTRK Radio",
+    "genre": "news/talk",
+    "stream_url": "https://www.ktrk.kg/radio/stream",
+    "homepage": "https://ktrk.kg",
+    "country": "KG",
+    "lat": 42.8746,
+    "lon": 74.5698
+  },
+  {
+    "name": "Rai Radio 1",
+    "genre": "news/talk",
+    "stream_url": "https://icestreaming.rai.it/1.mp3",
+    "homepage": "https://www.raiplayradio.it",
+    "country": "IT",
+    "lat": 41.9,
+    "lon": 12.5
+  },
+  {
+    "name": "Rai Radio 2",
+    "genre": "pop/talk",
+    "stream_url": "https://icestreaming.rai.it/2.mp3",
+    "homepage": "https://www.raiplayradio.it",
+    "country": "IT",
+    "lat": 41.9,
+    "lon": 12.5
+  },
+  {
+    "name": "Radio Deejay",
+    "genre": "pop/dance",
+    "stream_url": "https://radiodeejay-lh.akamaized.net/live/deejay/stream.mp3",
+    "homepage": "https://www.deejay.it",
+    "country": "IT",
+    "lat": 45.46,
+    "lon": 9.19
+  },
+  {
+    "name": "Radio Capital",
+    "genre": "rock/alternative",
+    "stream_url": "https://radiocapital-lh.akamaized.net/live/capital/stream.mp3",
+    "homepage": "https://www.capital.it",
+    "country": "IT",
+    "lat": 45.46,
+    "lon": 9.19
+  },
+  {
+    "name": "TRT Radio 1",
+    "genre": "news/talk",
+    "stream_url": "https://trt-radio-1.medya.trt.com.tr/live",
+    "homepage": "https://www.trt.net.tr",
+    "country": "TR",
+    "lat": 39.93,
+    "lon": 32.85
+  },
+  {
+    "name": "TRT FM",
+    "genre": "pop/talk",
+    "stream_url": "https://trt-fm.medya.trt.com.tr/live",
+    "homepage": "https://www.trt.net.tr",
+    "country": "TR",
+    "lat": 41.01,
+    "lon": 28.98
+  },
+  {
+    "name": "Power Turkey",
+    "genre": "pop/dance",
+    "stream_url": "https://powerturk-live.perrystream.com/stream",
+    "homepage": "https://www.powerturk.com",
+    "country": "TR",
+    "lat": 41.01,
+    "lon": 28.98
+  },
+  {
+    "name": "TRT Radio 1",
+    "genre": "news/talk",
+    "stream_url": "https://radioyayin.trt.net.tr/radyo1/radyo1_128.mp3",
+    "homepage": "https://www.trt.net.tr",
+    "country": "TR",
+    "lat": 39.93,
+    "lon": 32.85
+  },
+  {
+    "name": "TRT FM",
+    "genre": "pop/talk",
+    "stream_url": "https://radioyayin.trt.net.tr/trtfm/trtfm_128.mp3",
+    "homepage": "https://www.trt.net.tr",
+    "country": "TR",
+    "lat": 39.93,
+    "lon": 32.85
+  },
+  {
+    "name": "Power FM",
+    "genre": "pop/rock",
+    "stream_url": "https://listen.powerapp.com.tr/powerfm/mpeg/128/home",
+    "homepage": "https://www.powerfm.com.tr",
+    "country": "TR",
+    "lat": 41.01,
+    "lon": 28.98
+  },
+  {
+    "name": "Metro FM",
+    "genre": "pop/dance",
+    "stream_url": "https://listen.radyometro.com.tr/metrofm/mpeg/128/home",
+    "homepage": "https://www.metrofm.com.tr",
+    "country": "TR",
+    "lat": 41.01,
+    "lon": 28.98
+  },
+  {
+    "name": "ERT Proto",
+    "genre": "news/talk",
+    "stream_url": "https://radiostreaming.ert.gr/ert-proto",
+    "homepage": "https://www.ert.gr",
+    "country": "GR",
+    "lat": 37.98,
+    "lon": 23.73
+  },
+  {
+    "name": "ERT Deftero",
+    "genre": "culture/talk",
+    "stream_url": "https://radiostreaming.ert.gr/ert-deftero",
+    "homepage": "https://www.ert.gr",
+    "country": "GR",
+    "lat": 37.98,
+    "lon": 23.73
+  },
+  {
+    "name": "ERA Sport",
+    "genre": "sports",
+    "stream_url": "https://radiostreaming.ert.gr/era-sport",
+    "homepage": "https://www.ert.gr",
+    "country": "GR",
+    "lat": 37.98,
+    "lon": 23.73
+  },
+  {
+    "name": "Ukrainian Radio 1",
+    "genre": "news/talk",
+    "stream_url": "https://radio.nrcu.gov.ua:8443/stream1",
+    "homepage": "https://www.nrcu.gov.ua",
+    "country": "UA",
+    "lat": 50.45,
+    "lon": 30.52
+  },
+  {
+    "name": "Radio Promin",
+    "genre": "pop/music",
+    "stream_url": "https://radio.nrcu.gov.ua:8443/stream3",
+    "homepage": "https://www.nrcu.gov.ua",
+    "country": "UA",
+    "lat": 50.45,
+    "lon": 30.52
+  },
+  {
+    "name": "Caracol Radio",
+    "genre": "news/talk",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIO.mp3",
+    "homepage": "https://caracol.com.co",
+    "country": "CO",
+    "lat": 4.7,
+    "lon": -74.1
+  },
+  {
+    "name": "RCN Radio",
+    "genre": "news/talk",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RCNRADIO.mp3",
+    "homepage": "https://rcnradio.com",
+    "country": "CO",
+    "lat": 4.7,
+    "lon": -74.1
+  },
+  {
+    "name": "Radio Programas del Peru",
+    "genre": "news/talk",
+    "stream_url": "https://stream.rpp.pe/radioprogramas.mp3",
+    "homepage": "https://rpp.pe",
+    "country": "PE",
+    "lat": -12.0464,
+    "lon": -77.0428
+  },
+  {
+    "name": "Radio Nacional de Chile",
+    "genre": "news/culture",
+    "stream_url": "https://streaming.rtvc.cl/radio-nacional/live.mp3",
+    "homepage": "https://www.radio.cl",
+    "country": "CL",
+    "lat": -33.4,
+    "lon": -70.7
+  },
+  {
+    "name": "Radio Agricultura",
+    "genre": "news/talk",
+    "stream_url": "https://streaming.radioagricultura.cl/live.mp3",
+    "homepage": "https://www.radioagricultura.cl",
+    "country": "CL",
+    "lat": -33.4,
+    "lon": -70.7
+  },
+  {
+    "name": "Radio Mitre",
+    "genre": "news/talk",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMITRE.mp3",
+    "homepage": "https://radiomitre.com",
+    "country": "AR",
+    "lat": -34.6037,
+    "lon": -58.3816
+  },
+  {
+    "name": "Continental",
+    "genre": "news/talk",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/CONTINENTAL.mp3",
+    "homepage": "https://www.continental.com.ar",
+    "country": "AR",
+    "lat": -34.6037,
+    "lon": -58.3816
+  },
+  {
+    "name": "CBN",
+    "genre": "news/talk",
+    "stream_url": "https://stream.cbn.com.br/cbn_rj.mp3",
+    "homepage": "https://cbn.globoradio.globo.com",
+    "country": "BR",
+    "lat": -22.91,
+    "lon": -43.17
+  },
+  {
+    "name": "Jovem Pan",
+    "genre": "news/pop",
+    "stream_url": "https://stream.jfradios.com/jovempan",
+    "homepage": "https://jfradios.com",
+    "country": "BR",
+    "lat": -22.91,
+    "lon": -43.17
+  },
+  {
+    "name": "W Radio",
+    "genre": "news/talk",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRADIO.mp3",
+    "homepage": "https://wradio.com.mx",
+    "country": "MX",
+    "lat": 19.4,
+    "lon": -99.1
+  },
+  {
+    "name": "Radio Formula",
+    "genre": "news/talk",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOFORMULA.mp3",
+    "homepage": "https://radioformula.com.mx",
+    "country": "MX",
+    "lat": 19.4,
+    "lon": -99.1
+  },
+  {
+    "name": "Nile FM",
+    "genre": "pop/hits",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NILEFM.mp3",
+    "homepage": "https://nilefm.com",
+    "country": "EG",
+    "lat": 30.0,
+    "lon": 31.2
+  },
+  {
+    "name": "Nogoum FM",
+    "genre": "pop/arabic",
+    "stream_url": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOGOUMFM.mp3",
+    "homepage": "https://nogoumfm.net",
+    "country": "EG",
+    "lat": 30.0,
+    "lon": 31.2
+  },
+  {
+    "name": "Radio Mars",
+    "genre": "news/talk",
+    "stream_url": "https://www.radiomars.ma/stream",
+    "homepage": "https://www.radiomars.ma",
+    "country": "MA",
+    "lat": 34.0,
+    "lon": -6.8
+  },
+  {
+    "name": "SNRT",
+    "genre": "news/culture",
+    "stream_url": "https://www.snrt.ma/radio/stream",
+    "homepage": "https://www.snrt.ma",
+    "country": "MA",
+    "lat": 34.0,
+    "lon": -6.8
+  },
+  {
+    "name": "Wazobia FM",
+    "genre": "pidgin/talk",
+    "stream_url": "https://stream.wazobia.com/wazobiafm",
+    "homepage": "https://wazobiafm.com",
+    "country": "NG",
+    "lat": 6.5,
+    "lon": 3.4
+  },
+  {
+    "name": "Cool FM",
+    "genre": "pop/hits",
+    "stream_url": "https://stream.coolfm.com/coolfm",
+    "homepage": "https://coolfm.ng",
+    "country": "NG",
+    "lat": 6.5,
+    "lon": 3.4
+  },
+  {
+    "name": "Capital FM",
+    "genre": "pop/hits",
+    "stream_url": "https://stream.capitalfm.co.ke/capitalfm",
+    "homepage": "https://capitalfm.co.ke",
+    "country": "KE",
+    "lat": -1.2921,
+    "lon": 36.8219
+  },
+  {
+    "name": "Kiss FM",
+    "genre": "pop/music",
+    "stream_url": "https://stream.kissfmkenya.com/kissfm",
+    "homepage": "https://kissfmkenya.com",
+    "country": "KE",
+    "lat": -1.2921,
+    "lon": 36.8219
+  },
+  {
+    "name": "Fana FM",
+    "genre": "news/talk",
+    "stream_url": "https://stream.fanafm.com.fanafm/fanafm",
+    "homepage": "https://fanafm.com",
+    "country": "ET",
+    "lat": 9.0,
+    "lon": 38.7
+  },
+  {
+    "name": "Sheger FM",
+    "genre": "news/talk",
+    "stream_url": "https://stream.shegerfm.com/shegerfm",
+    "homepage": "https://shegerfm.com",
+    "country": "ET",
+    "lat": 9.0,
+    "lon": 38.7
+  },
+  {
+    "name": "Joy FM",
+    "genre": "news/talk",
+    "stream_url": "https://stream.joyonline.com/joyfm",
+    "homepage": "https://myjoyonline.com",
+    "country": "GH",
+    "lat": 5.6,
+    "lon": -0.2
+  },
+  {
+    "name": "Citi FM",
+    "genre": "news/talk",
+    "stream_url": "https://stream.citifmonline.com/citifm",
+    "homepage": "https://citifmonline.com",
+    "country": "GH",
+    "lat": 5.6,
+    "lon": -0.2
+  },
+  {
+    "name": "MBC FM",
+    "genre": "pop/arabic",
+    "stream_url": "https://stream.mbc.net/mbcfm",
+    "homepage": "https://mbc.net",
+    "country": "SA",
+    "lat": 24.7,
+    "lon": 46.7
+  },
+  {
+    "name": "Rotana Radio",
+    "genre": "arabic/pop",
+    "stream_url": "https://stream.rotana.com/rotanaradio",
+    "homepage": "https://rotana.com",
+    "country": "SA",
+    "lat": 24.7,
+    "lon": 46.7
+  },
+  {
+    "name": "Radio Sawa",
+    "genre": "news/pop",
+    "stream_url": "https://av.voanews.com/ka-341096-1/ka-341096-1.isml/playlist.m3u8",
+    "homepage": "https://www.radiosawa.com",
+    "country": "IQ",
+    "lat": 33.3,
+    "lon": 44.4
+  },
+  {
+    "name": "Al Rasheed Radio",
+    "genre": "news/talk",
+    "stream_url": "https://alrasheedmedia.com/radio/stream",
+    "homepage": "https://alrasheedmedia.com",
+    "country": "IQ",
+    "lat": 33.3,
+    "lon": 44.4
+  },
+  {
+    "name": "IRIB Radio 1",
+    "genre": "news/talk",
+    "stream_url": "https://stream.irib.ir/radio1",
+    "homepage": "https://irib.ir",
+    "country": "IR",
+    "lat": 35.7,
+    "lon": 51.4
+  },
+  {
+    "name": "Radio Javan",
+    "genre": "persian pop",
+    "stream_url": "https://www.radiojavan.com/stream",
+    "homepage": "https://www.radiojavan.com",
+    "country": "IR",
+    "lat": 35.7,
+    "lon": 51.4
+  },
+  {
+    "name": "FM 101",
+    "genre": "news/music",
+    "stream_url": "https://stream.pbc.gov.pk/fm101",
+    "homepage": "https://pbc.gov.pk",
+    "country": "PK",
+    "lat": 33.7,
+    "lon": 73.0
+  },
+  {
+    "name": "Radio Pakistan",
+    "genre": "news/talk",
+    "stream_url": "https://stream.pbc.gov.pk/radiopakistan",
+    "homepage": "https://pbc.gov.pk",
+    "country": "PK",
+    "lat": 33.7,
+    "lon": 73.0
+  },
+  {
+    "name": "Bangladesh Betar",
+    "genre": "news/culture",
+    "stream_url": "https://www.betar.gov.bd/radio/stream",
+    "homepage": "https://betar.gov.bd",
+    "country": "BD",
+    "lat": 23.8,
+    "lon": 90.4
+  },
+  {
+    "name": "Radio Foorti",
+    "genre": "pop/music",
+    "stream_url": "https://stream.radiofoorti.com/radiofoorti",
+    "homepage": "https://radiofoorti.com",
+    "country": "BD",
+    "lat": 23.8,
+    "lon": 90.4
+  },
+  {
+    "name": "Radio Myanmar",
+    "genre": "news/talk",
+    "stream_url": "https://www.mrtv.gov.mm/radio/stream",
+    "homepage": "https://mrtv.gov.mm",
+    "country": "MM",
+    "lat": 16.8,
+    "lon": 96.2
+  },
+  {
+    "name": "City FM",
+    "genre": "pop/music",
+    "stream_url": "https://cityfm.com.mm/stream",
+    "homepage": "https://cityfm.com.mm",
+    "country": "MM",
+    "lat": 16.8,
+    "lon": 96.2
+  },
+  {
+    "name": "National Radio of Cambodia",
+    "genre": "news/talk",
+    "stream_url": "https://www.rtk.gov.kh/radio/stream",
+    "homepage": "https://rtk.gov.kh",
+    "country": "KH",
+    "lat": 11.6,
+    "lon": 104.9
+  },
+  {
+    "name": "WMCN FM",
+    "genre": "pop/music",
+    "stream_url": "https://wmcn.com.kh/stream",
+    "homepage": "https://wmcn.com.kh",
+    "country": "KH",
+    "lat": 11.6,
+    "lon": 104.9
+  },
+  {
+    "name": "Radio Malaysia",
+    "genre": "news/talk",
+    "stream_url": "https://stream.rtm.gov.my/radiomalaysia",
+    "homepage": "https://rtm.gov.my",
+    "country": "MY",
+    "lat": 3.1,
+    "lon": 101.7
+  },
+  {
+    "name": "Hot FM",
+    "genre": "pop/hits",
+    "stream_url": "https://stream.hotfm.com.my/hotfm",
+    "homepage": "https://hotfm.com.my",
+    "country": "MY",
+    "lat": 3.1,
+    "lon": 101.7
+  },
+  {
+    "name": "DZMM",
+    "genre": "news/talk",
+    "stream_url": "https://dzmm.abs-cbn.com/stream",
+    "homepage": "https://dzmm.abs-cbn.com",
+    "country": "PH",
+    "lat": 14.6,
+    "lon": 121.0
+  },
+  {
+    "name": "DZRH",
+    "genre": "news/talk",
+    "stream_url": "https://dzrh.com.ph/stream",
+    "homepage": "https://dzrh.com.ph",
+    "country": "PH",
+    "lat": 14.6,
+    "lon": 121.0
+  },
+  {
+    "name": "Radio Nacional Bolivia",
+    "genre": "news/culture",
+    "stream_url": "https://www.rnbolivia.com/radio/stream",
+    "homepage": "https://rnbolivia.com",
+    "country": "BO",
+    "lat": -16.5,
+    "lon": -68.1
+  }
+]

@@ -14,6 +14,7 @@ class PluginContractTests(unittest.TestCase):
         metadata = (ROOT / "metadata.yaml").read_text(encoding="utf-8")
         source = (ROOT / "main.py").read_text(encoding="utf-8")
         self.assertIn("name: astrbot_plugin_nowhere", metadata)
+        self.assertIn("version: 1.0.1", metadata)
         self.assertIn('astrbot_version: ">=4.17,<5"', metadata)
         self.assertIn('@filter.llm_tool(name="nowhere_travel")', source)
         self.assertNotIn("register_llm_tool", source)

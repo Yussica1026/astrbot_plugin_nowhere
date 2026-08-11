@@ -70,7 +70,7 @@ async def dispatch(action: str, **args: Any) -> dict[str, Any]:
 class NowherePlugin(Star):
     def __init__(self, context: Context):
         super().__init__(context)
-        logger.info("乌有乡原版旅行运行时已加载，数据目录：%s", DATA_ROOT)
+        logger.info(f"乌有乡原版旅行运行时已加载，数据目录：{DATA_ROOT}")
 
     @filter.llm_tool(name="nowhere_travel")
     async def nowhere_travel(
@@ -109,7 +109,7 @@ class NowherePlugin(Star):
             result = await dispatch(action, to=to, direction=direction, distance_km=distance_km, place=place, topic=topic, name=name, note=note, text=text, hours=hours, seconds=seconds, overwrite=overwrite)
             yield event.plain_result(_text(result))
         except Exception as error:
-            logger.exception("乌有乡动作失败：%s", action)
+            logger.exception(f"乌有乡动作失败：{action}")
             yield event.plain_result(f"乌有乡动作失败：{error}")
 
     @filter.command("nowhere")
@@ -135,4 +135,4 @@ class NowherePlugin(Star):
             yield event.plain_result(f"乌有乡动作失败：{error}")
 
     async def terminate(self):
-        logger.info("乌有乡插件已停止，旅程数据仍保留在 %s", DATA_ROOT)
+        logger.info(f"乌有乡插件已停止，旅程数据仍保留在 {DATA_ROOT}")

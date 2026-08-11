@@ -32,6 +32,14 @@ class PluginContractTests(unittest.TestCase):
         self.assertIn("CC BY-NC 4.0", readme)
         self.assertTrue((ROOT / "LICENSE").is_file())
 
+    def test_travel_tool_returns_context_visible_string(self):
+        source = (ROOT / "main.py").read_text(encoding="utf-8")
+        self.assertIn("NOWHERE_TRAVEL_RESULT", source)
+        self.assertIn("yield _tool_context_result(action, result)", source)
+        self.assertIn('"冰岛 雷克雅未克": "Reykjavik"', source)
+        self.assertNotIn("yield event.plain_result(_text(result))", source)
+        self.assertIn("乌有乡工具执行失败", source)
+
 
 if __name__ == "__main__":
     unittest.main()

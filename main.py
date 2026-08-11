@@ -27,17 +27,55 @@ def _text(result: Any) -> str:
     return str(result)
 
 
+def _tool_context_result(action: str, result: Any) -> str:
+    """Return a compact structured result so AstrBot adds it to the next LLM turn.
+
+    ``event.plain_result`` is a direct-to-user event in AstrBot's local tool
+    runner. It is useful for commands, but it yields ``None`` to the agent,
+    which makes the model receive only "tool has no return value". A plain
+    string is converted by AstrBot into a real MCP ``tool_result`` block.
+    """
+    if isinstance(result, dict):
+        payload = {
+            "action": action,
+            "text": str(result.get("text") or ""),
+            "data": result.get("data") or {},
+        }
+    else:
+        payload = {"action": action, "text": str(result), "data": {}}
+    return (
+        "NOWHERE_TRAVEL_RESULT\n"
+        "以下是刚刚真实旅行工具返回的结果。请把它当作你已经亲身经历并收到的环境信息，"
+        "后续回答可以直接引用地点、天气、声音、地形和观察到的内容；不要说自己没有收到工具结果。\n"
+        + json.dumps(payload, ensure_ascii=False, default=str)
+    )
+
+
+PLACE_ALIASES = {
+    "冰岛 雷克雅未克": "Reykjavik",
+    "冰岛 雷克雅维克": "Reykjavik",
+    "雷克雅未克": "Reykjavik",
+    "雷克雅维克": "Reykjavik",
+    "reykjavík": "Reykjavik",
+}
+
+
+def _normalize_place(value: Any) -> str:
+    place = " ".join(str(value or "").strip().split())
+    return PLACE_ALIASES.get(place.casefold(), place)
+
+
 async def dispatch(action: str, **args: Any) -> dict[str, Any]:
     """Call the unmodified upstream implementation behind a stable AstrBot facade."""
     action = action.strip().lower()
     if action == "open_door":
-        return await nowhere.open_door_impl(args.get("to") or None)
+        return await nowhere.open_door_impl(_normalize_place(args.get("to")) or None)
     if action == "continue_journey":
         return await nowhere.open_door_impl(resume=True)
     if action == "walk":
         return await nowhere.walk_impl(args.get("direction") or "forward", float(args.get("distance_km") or 2))
     if action == "walk_to":
-        return await nowhere.walk_to_impl(str(args.get("place") or args.get("to") or ""))
+        return await nowhere.walk_to_impl(_normalize_place(args.get("place") or args.get("to")))
     if action == "look_around":
         return await nowhere.look_around_impl()
     if action == "listen":
@@ -107,10 +145,16 @@ class NowherePlugin(Star):
         """
         try:
             result = await dispatch(action, to=to, direction=direction, distance_km=distance_km, place=place, topic=topic, name=name, note=note, text=text, hours=hours, seconds=seconds, overwrite=overwrite)
-            yield event.plain_result(_text(result))
+            # Yield a string, not event.plain_result: AstrBot turns this into
+            # the model's tool_result context block instead of a direct user
+            # message that the model cannot see.
+            yield _tool_context_result(action, result)
         except Exception as error:
             logger.exception(f"乌有乡动作失败：{action}")
-            yield event.plain_result(f"乌有乡动作失败：{error}")
+            yield _tool_context_result(
+                action,
+                {"text": f"乌有乡工具执行失败：{error}", "data": {"error": str(error)}},
+            )
 
     @filter.command("nowhere")
     async def nowhere_command(self, event: AstrMessageEvent):

@@ -1,0 +1,10 @@
+name: astrbot_plugin_nowhere
+display_name: 乌有乡 · Nowhere
+short_desc: 让 AI 用身体在真实地球上行走、观察、收听并寄回明信片。
+desc: |
+  乌有乡（Nowhere）的非官方 AstrBot 移植版。完整捆入原作 Python 运行时与地理数据，
+  向 AstrBot Agent 注册自主旅行工具，并提供手动旅行指令。
+version: 1.0.0
+author: Project Maintainer
+repo: https://github.com/Yussica1026/astrbot_plugin_nowhere
+astrbot_version: ">=4.17,<5"

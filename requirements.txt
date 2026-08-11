@@ -1,0 +1,10 @@
+fastmcp>=2
+httpx
+numpy
+scipy
+skyfield
+timezonefinder
+uvicorn
+opencc-python-reimplemented
+ephem
+tzdata
